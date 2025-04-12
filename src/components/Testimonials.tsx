@@ -19,7 +19,7 @@ const testimonials = [
   },
   {
     id: 3,
-    content: "LogoIpsum provides such a supportive environment. My twins were hesitant at first, but the engaging content and encouraging teachers made them look forward to each session. They've gained so much confidence!",
+    content: "KnowMe provides such a supportive environment. My twins were hesitant at first, but the engaging content and encouraging teachers made them look forward to each session. They've gained so much confidence!",
     author: "Lisa Rodriguez",
     role: "Parent of Emily & Jacob, 11",
     image: "https://randomuser.me/api/portraits/women/32.jpg"

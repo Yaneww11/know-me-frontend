@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowRight, Sparkles, BookOpen } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -16,43 +15,43 @@ const Hero = () => {
           <div className="flex-1 max-w-xl">
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-purple-100 text-purple-700 text-sm font-medium mb-6">
               <Sparkles size={16} className="mr-2" />
-              <span>For children aged 10-14 years</span>
+              <span>За деца на възраст 10-14 години</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Help Your Child <span className="text-purple-600">Discover</span> Their Potential
+              Помогни на своето дете <span className="text-purple-600">да разкрие</span> своя талант
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-8">
-              Engaging courses designed to spark creativity, critical thinking, and passion for learning in your child.
+              Увлекателни курсове, създадени да разпалят креативността, критичното мислене и страстта към ученето при вашето дете.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="btn-primary flex items-center gap-2" size="lg">
-                Explore Courses
+                Разгледай курсовете
                 <ArrowRight size={18} />
               </Button>
               <Button variant="outline" size="lg" className="border-purple-200 text-purple-700 hover:bg-purple-50">
                 <BookOpen size={18} className="mr-2" />
-                How It Works
+                Как работи
               </Button>
             </div>
             <div className="mt-8 flex items-center">
-              <div className="flex -space-x-2">
-                {[1, 2, 3, 4].map((item) => (
+              <a href="#path" className="flex -space-x-2">
+                {[1, 2, 3].map((item) => (
                   <div key={item} className="w-8 h-8 rounded-full bg-purple-500 border-2 border-white flex items-center justify-center text-white text-xs">
                     {item}
                   </div>
                 ))}
-              </div>
+              </a>
               <p className="ml-4 text-sm font-medium text-gray-600">
-                Trusted by <span className="text-purple-700 font-bold">2,000+</span> parents
+                С доверието на <span className="text-purple-700 font-bold">2,000+</span> родители
               </p>
             </div>
           </div>
-          
+
           <div className="flex-1 relative">
-            <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
-              <img 
-                src="https://images.unsplash.com/photo-1518495973542-4542c06a5843" 
-                alt="Children learning together" 
+            <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl max-w-md mx-auto">
+              <img
+                src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&auto=format&q=80"
+                alt="Деца учат заедно"
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -61,10 +60,10 @@ const Hero = () => {
                 <div className="h-8 w-8 bg-green-500 rounded-full flex items-center justify-center">
                   <Sparkles size={16} className="text-white" />
                 </div>
-                <h4 className="font-bold text-gray-800">New courses added weekly</h4>
+                <h4 className="font-bold text-gray-800">Нови курсове всяка седмица</h4>
               </div>
               <p className="text-sm text-gray-600">
-                Continuous learning journey with fresh, exciting content
+                Непрекъснато обучение с ново и вълнуващо съдържание
               </p>
             </div>
           </div>

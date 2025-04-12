@@ -19,7 +19,7 @@ const Path = () => {
               <ClipboardEdit size={28} className="text-purple-600" />
             </div>
             <h3 className="text-xl font-bold mb-3">1. Register</h3>
-            <p className="text-gray-600">Create an account to begin your child's personalized learning journey with LogoIpsum.</p>
+            <p className="text-gray-600">Create an account to begin your child's personalized learning journey with KnowMe.</p>
           </div>
 
           {/* Step 2 */}

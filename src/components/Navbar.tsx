@@ -8,46 +8,46 @@ const Navbar = () => {
   };
   return <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="container-custom">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-22"> {/* Increased height */}
           <div className="flex-shrink-0">
             <a href="/" className="flex items-center">
-              <span className="text-2xl font-bold text-purple-700">Logo<span className="text-green-500">Ipsum</span></span>
+              <img src="/public/logo_with_text.png" alt="KnowMe Лого" className="h-24" /> {/* Increased logo size */}
             </a>
           </div>
           
           {/* Desktop menu */}
-          <nav className="hidden md:flex items-center space-x-8">
-            <a href="#courses" className="font-medium text-gray-700 hover:text-purple-600 transition-colors">Courses</a>
-            <a href="#path" className="font-medium text-gray-700 hover:text-purple-600 transition-colors">Path</a>
-            <a href="#benefits" className="font-medium text-gray-700 hover:text-purple-600 transition-colors">Benefits</a>
-            <a href="#testimonials" className="font-medium text-gray-700 hover:text-purple-600 transition-colors">Success Stories</a>
-            <a href="#faq" className="font-medium text-gray-700 hover:text-purple-600 transition-colors">Parents chat</a>
+          <nav className="hidden md:flex items-center space-x-16"> {/* Increased spacing */}
+            <a href="#courses" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Курсове</a> {/* Increased font size */}
+            <a href="#path" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Път</a>
+            <a href="#benefits" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Ползи</a>
+            <a href="#testimonials" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Доволни клиенти</a>
+            <a href="#faq" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Чат за Родители</a>
           </nav>
           
-          <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" className="font-medium">Sign in</Button>
-            <Button className="bg-purple-600 hover:bg-purple-700">Get Started</Button>
+          <div className="hidden md:flex items-center space-x-8"> {/* Increased spacing */}
+            <Button variant="ghost" className="text-xl font-medium">Вход</Button> {/* Increased font size */}
+            <Button className="text-xl bg-purple-600 hover:bg-purple-700 px-8 py-4">Започнете</Button> {/* Increased button size */}
           </div>
           
           {/* Mobile menu button */}
           <div className="md:hidden">
             <button type="button" className="text-gray-700 hover:text-purple-600 focus:outline-none" onClick={toggleMenu}>
-              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              {isMenuOpen ? <X size={48} /> : <Menu size={48} />} {/* Increased icon size */}
             </button>
           </div>
         </div>
         
         {/* Mobile menu */}
-        {isMenuOpen && <div className="md:hidden bg-white py-4 px-2">
-            <nav className="flex flex-col space-y-4">
-              <a href="#courses" className="px-3 py-2 font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Courses</a>
-              <a href="#path" className="px-3 py-2 font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Path</a>
-              <a href="#benefits" className="px-3 py-2 font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Benefits</a>
-              <a href="#testimonials" className="px-3 py-2 font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Success Stories</a>
-              <a href="#faq" className="px-3 py-2 font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">FAQ</a>
-              <div className="flex flex-col space-y-2 pt-2 border-t border-gray-100">
-                <Button variant="ghost" className="w-full justify-center">Sign in</Button>
-                <Button className="w-full justify-center bg-purple-600 hover:bg-purple-700">Get Started</Button>
+        {isMenuOpen && <div className="md:hidden bg-white py-8 px-4"> {/* Increased padding */}
+            <nav className="flex flex-col space-y-8"> {/* Increased spacing */}
+              <a href="#courses" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Курсове</a> {/* Increased font size and padding */}
+              <a href="#path" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Път</a>
+              <a href="#benefits" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Ползи</a>
+              <a href="#testimonials" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Доволни клиенти</a>
+              <a href="#faq" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">ЧЗВ</a>
+              <div className="flex flex-col space-y-4 pt-4 border-t border-gray-100"> {/* Increased spacing */}
+                <Button variant="ghost" className="w-full justify-center text-xl">Вход</Button> {/* Increased font size */}
+                <Button className="w-full justify-center text-xl bg-purple-600 hover:bg-purple-700 px-8 py-4">Започнете</Button> {/* Increased button size */}
               </div>
             </nav>
           </div>}

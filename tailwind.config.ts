@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -103,7 +102,7 @@ export default {
 				'float': 'float 6s ease-in-out infinite'
 			},
 			fontFamily: {
-				'sans': ['Nunito', 'sans-serif'],
+				'sans': ['Nunito Sans', 'sans-serif'],
 				'heading': ['Quicksand', 'sans-serif']
 			},
 			backgroundImage: {
