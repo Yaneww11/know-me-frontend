@@ -23,6 +23,7 @@ const Navbar = () => {
           {/* Desktop menu */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#courses" className="font-medium text-gray-700 hover:text-purple-600 transition-colors">Courses</a>
+            <a href="#path" className="font-medium text-gray-700 hover:text-purple-600 transition-colors">Path</a>
             <a href="#benefits" className="font-medium text-gray-700 hover:text-purple-600 transition-colors">Benefits</a>
             <a href="#testimonials" className="font-medium text-gray-700 hover:text-purple-600 transition-colors">Success Stories</a>
             <a href="#faq" className="font-medium text-gray-700 hover:text-purple-600 transition-colors">FAQ</a>
@@ -50,6 +51,7 @@ const Navbar = () => {
           <div className="md:hidden bg-white py-4 px-2">
             <nav className="flex flex-col space-y-4">
               <a href="#courses" className="px-3 py-2 font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Courses</a>
+              <a href="#path" className="px-3 py-2 font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Path</a>
               <a href="#benefits" className="px-3 py-2 font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Benefits</a>
               <a href="#testimonials" className="px-3 py-2 font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Success Stories</a>
               <a href="#faq" className="px-3 py-2 font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">FAQ</a>
