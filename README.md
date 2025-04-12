@@ -8,7 +8,7 @@ Follow these steps:
 git clone git@github.com:Yaneww11/purple-green-learnings-bloom-16.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd know-me-frontend
 
 # Step 3: Install the necessary dependencies.
 npm i
