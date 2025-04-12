@@ -18,7 +18,7 @@ const Hero = () => {
               <span>За деца на възраст 10-14 години</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Помогни на своето дете <span className="text-purple-600">да разкрие</span> своя талант
+              Заедно в, <span className="text-purple-600">откритията</span>, заедно  в растежа
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-8">
               Увлекателни курсове, създадени да разпалят креативността, критичното мислене и страстта към ученето при вашето дете.
