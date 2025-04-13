@@ -83,6 +83,7 @@ const ParentCommunity: React.FC = () => {
   const [newPostCategory, setNewPostCategory] = useState('');
   const [commentInputs, setCommentInputs] = useState<{ [key: number]: string }>({});
   const [showCommentField, setShowCommentField] = useState<{ [key: number]: boolean }>({});
+  const [likedPosts, setLikedPosts] = useState<{ [key: number]: boolean }>({});
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
@@ -112,6 +113,11 @@ const ParentCommunity: React.FC = () => {
     setPosts(posts.map(post =>
         post.id === postId ? { ...post, likes: post.likes + 1 } : post
     ));
+    // Update the liked state for this post
+    setLikedPosts({
+      ...likedPosts,
+      [postId]: true
+    });
   };
 
   const toggleCommentField = (postId: number) => {
@@ -224,8 +230,11 @@ const ParentCommunity: React.FC = () => {
                       variant="ghost"
                       size="sm"
                       onClick={() => handleLike(post.id)}
+                      className={likedPosts[post.id] ? "text-blue-600 hover:text-blue-800" : ""}
+                      disabled={likedPosts[post.id]}
                   >
-                    <ThumbsUp className="mr-2 h-4 w-4" /> Харесай ({post.likes})
+                    <ThumbsUp className={`mr-2 h-4 w-4 ${likedPosts[post.id] ? "fill-blue-600" : ""}`} /> 
+                    Харесай ({post.likes})
                   </Button>
                   <Button
                       variant="ghost"

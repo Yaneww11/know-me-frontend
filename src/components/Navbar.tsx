@@ -26,7 +26,7 @@ const Navbar = () => {
           
           <div className="hidden md:flex items-center space-x-8"> {/* Increased spacing */}
          <Button variant="ghost" className="text-xl font-medium" onClick={() => window.open('https://www.figma.com/proto/JM7m0zKb4Q7vbVNQQGMhNe/Know-me?page-id=0%3A1&node-id=5-6&viewport=438%2C311%2C0.18&t=0jXdbqRmhGquL3r0-1&scaling=scale-down&content-scaling=fixed', '_blank')}>Вход</Button> {/* Increased font size */}{/* Increased font size */}
-            <Button className="text-xl bg-purple-600 hover:bg-purple-700 px-8 py-4">Започнете</Button> {/* Increased button size */}
+            <Button className="text-xl bg-purple-600 hover:bg-purple-700 px-8 py-4">Започнете сгеа</Button> {/* Increased button size */}
           </div>
           
           {/* Mobile menu button */}
@@ -47,7 +47,7 @@ const Navbar = () => {
               <a href="/chat" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">ЧЗВ</a>
               <div className="flex flex-col space-y-4 pt-4 border-t border-gray-100"> {/* Increased spacing */}
                 <Button variant="ghost" className="w-full justify-center text-xl">Вход</Button> {/* Increased font size */}
-                <Button className="w-full justify-center text-xl bg-purple-600 hover:bg-purple-700 px-8 py-4">Започнете</Button> {/* Increased button size */}
+                <Button className="w-full justify-center text-xl bg-purple-600 hover:bg-purple-700 px-8 py-4">Започнете сгеа</Button> {/* Increased button size */}
               </div>
             </nav>
           </div>}

@@ -27,7 +27,7 @@ const ParentCommunityNavbar = () => {
           
           <div className="hidden md:flex items-center space-x-8">
             <Button variant="ghost" className="text-xl font-medium">Вход</Button>
-            <Button className="text-xl bg-purple-600 hover:bg-purple-700 px-8 py-4">Започнете</Button>
+            <Button className="text-xl bg-purple-600 hover:bg-purple-700 px-8 py-4">Започнете сгеа</Button>
           </div>
           
           {/* Mobile menu button */}
@@ -46,7 +46,7 @@ const ParentCommunityNavbar = () => {
               <a href="/chat" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Чат за Родители</a>
               <div className="flex flex-col space-y-4 pt-4 border-t border-gray-100">
                 <Button variant="ghost" className="w-full justify-center text-xl">Вход</Button>
-                <Button className="w-full justify-center text-xl bg-purple-600 hover:bg-purple-700 px-8 py-4">Започнете</Button>
+                <Button className="w-full justify-center text-xl bg-purple-600 hover:bg-purple-700 px-8 py-4">Започнете сгеа</Button>
               </div>
             </nav>
           </div>
