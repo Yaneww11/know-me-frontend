@@ -1,37 +1,36 @@
-
 import React from 'react';
 import { Lightbulb, Brain, Heart, Users, Clock, Award } from 'lucide-react';
 
 const benefits = [
   {
     icon: <Lightbulb className="h-6 w-6 text-purple-500" />,
-    title: 'Sparks Curiosity',
-    description: 'Engaging content that makes children ask questions and explore new topics with enthusiasm.'
+    title: 'Разпалва любопитството',
+    description: 'Завладяващо съдържание, което кара децата да задават въпроси и да изследват нови теми с ентусиазъм.'
   },
   {
     icon: <Brain className="h-6 w-6 text-purple-500" />,
-    title: 'Develops Critical Thinking',
-    description: 'Challenges that encourage problem-solving and analytical thinking skills.'
+    title: 'Развива критично мислене',
+    description: 'Предизвикателства, които насърчават уменията за решаване на проблеми и аналитично мислене.'
   },
   {
     icon: <Heart className="h-6 w-6 text-green-500" />,
-    title: 'Builds Confidence',
-    description: 'Supportive environment where children can take risks and develop self-assurance.'
+    title: 'Изгражда увереност',
+    description: 'Подкрепяща среда, в която децата могат да поемат рискове и да развиват самоувереност.'
   },
   {
     icon: <Users className="h-6 w-6 text-green-500" />,
-    title: 'Fosters Collaboration',
-    description: 'Interactive sessions that teach teamwork and communication skills.'
+    title: 'Насърчава сътрудничеството',
+    description: 'Интерактивни сесии, които учат на работа в екип и комуникационни умения.'
   },
   {
     icon: <Clock className="h-6 w-6 text-purple-500" />,
-    title: 'Flexible Learning',
-    description: 'Learn at your own pace with on-demand lessons and personalized feedback.'
+    title: 'Гъвкаво обучение',
+    description: 'Учете със собствено темпо с уроци при поискване и персонализирана обратна връзка.'
   },
   {
     icon: <Award className="h-6 w-6 text-green-500" />,
-    title: 'Recognized Achievements',
-    description: 'Certificates and badges that celebrate progress and motivate continued learning.'
+    title: 'Признати постижения',
+    description: 'Сертификати и значки, които отбелязват напредъка и мотивират за продължаващо обучение.'
   }
 ];
 
@@ -40,10 +39,10 @@ const Benefits = () => {
     <section id="benefits" className="section bg-white">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Parents Choose KnowMe</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Защо родителите избират нас</h2>
           <p className="text-lg text-gray-600">
-            Our educational platform is specially designed to support your child's growth and development 
-            during their formative years.
+            Нашата образователна платформа е специално разработена да подкрепи растежа и развитието на вашето дете 
+            през формиращите му години.
           </p>
         </div>
         
@@ -62,20 +61,20 @@ const Benefits = () => {
         <div className="mt-16 bg-gradient-to-r from-purple-600 to-purple-700 rounded-2xl overflow-hidden shadow-xl">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 p-10 md:p-12 flex flex-col justify-center">
-              <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">Ready to give your child the gift of learning?</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">Готови ли сте да дадете на детето си дара на ученето?</h3>
               <p className="text-purple-100 mb-6">
-                Join thousands of parents who have witnessed their children thrive with our courses.
+                Присъединете се към хилядите родители, които са видели как децата им процъфтяват с нашите курсове.
               </p>
               <div>
                 <a href="#courses" className="inline-block bg-white text-purple-600 hover:bg-purple-50 font-semibold py-3 px-6 rounded-lg transition-colors">
-                  Get Started Today
+                  Започнете още днес
                 </a>
               </div>
             </div>
             <div className="md:w-1/2">
               <img 
                 src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07" 
-                alt="Happy children learning" 
+                alt="Щастливи деца, които учат" 
                 className="w-full h-full object-cover object-center"
               />
             </div>

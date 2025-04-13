@@ -42,7 +42,7 @@ const Footer = () => {
               <li><a href="#courses" className="text-gray-400 hover:text-white transition-colors">Курсове</a></li>
               <li><a href="#path" className="text-gray-400 hover:text-white transition-colors">Път</a></li>
               <li><a href="#benefits" className="text-gray-400 hover:text-white transition-colors">Ползи</a></li>
-              <li><a href="#testimonials" className="text-gray-400 hover:text-white transition-colors">Доволни клиенти</a></li>
+              <li><a href="#testimonials" className="text-gray-400 hover:text-white transition-colors">Отзиви</a></li>
             </ul>
           </div>
           

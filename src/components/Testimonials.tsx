@@ -5,26 +5,27 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    content: "My daughter has always struggled with math, but after taking the Fun with Mathematics course, she not only improved her grades but actually started enjoying the subject. The teaching approach makes complex concepts accessible and fun!",
-    author: "Sarah Johnson",
-    role: "Parent of Anna, 12",
+    content: "Дъщеря ми винаги е имала затруднения с математиката, но след като изкара курса „Забавление с математика“, не само че подобри оценките си, но дори започна да се наслаждава на предмета. Начинът на преподаване прави сложните концепции достъпни и забавни!",
+    author: "Сара Джонсън",
+    role: "Родител на Анна, 12 г.",
     image: "https://randomuser.me/api/portraits/women/45.jpg"
   },
   {
     id: 2,
-    content: "The programming course sparked my son's interest in technology. He's now creating his own games and has developed problem-solving skills that help him in other subjects too. Absolutely worth the investment!",
-    author: "Michael Chen",
-    role: "Parent of Ryan, 14",
+    content: "Курсът по програмиране събуди интереса на сина ми към технологиите. Вече създава свои игри и е развил умения за решаване на проблеми, които му помагат и в други предмети. Абсолютно си заслужава инвестицията!",
+    author: "Майкъл Чен",
+    role: "Родител на Райън, 14 г.",
     image: "https://randomuser.me/api/portraits/men/22.jpg"
   },
   {
     id: 3,
-    content: "KnowMe provides such a supportive environment. My twins were hesitant at first, but the engaging content and encouraging teachers made them look forward to each session. They've gained so much confidence!",
-    author: "Lisa Rodriguez",
-    role: "Parent of Emily & Jacob, 11",
+    content: "KnowMe предоставя толкова подкрепяща среда. Близнаците ми бяха колебливи в началото, но увлекателното съдържание и окуражаващите преподаватели ги накараха да очакват с нетърпение всяка сесия. Придобиха толкова много увереност!",
+    author: "Лиса Родригес",
+    role: "Родител на Емили и Джейкъб, 11 г.",
     image: "https://randomuser.me/api/portraits/women/32.jpg"
   }
 ];
+
 
 const Testimonials = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -41,9 +42,9 @@ const Testimonials = () => {
     <section id="testimonials" className="section bg-purple-50">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Success Stories from Parents</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Истории на успеха от родители</h2>
           <p className="text-lg text-gray-600">
-            Hear what other parents say about their children's experience with our courses.
+            Чуйте какво споделят други родители за преживяванията на техните деца с нашите курсове.
           </p>
         </div>
         

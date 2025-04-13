@@ -20,8 +20,8 @@ const Navbar = () => {
             <a href="#courses" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Курсове</a> {/* Increased font size */}
             <a href="#path" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Път</a>
             <a href="#benefits" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Ползи</a>
-            <a href="#testimonials" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Доволни клиенти</a>
-            <a href="#faq" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Чат за Родители</a>
+            <a href="#testimonials" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Отзиви</a>
+            <a href="/chat" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Чат за Родители</a>
           </nav>
           
           <div className="hidden md:flex items-center space-x-8"> {/* Increased spacing */}
@@ -43,8 +43,8 @@ const Navbar = () => {
               <a href="#courses" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Курсове</a> {/* Increased font size and padding */}
               <a href="#path" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Път</a>
               <a href="#benefits" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Ползи</a>
-              <a href="#testimonials" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Доволни клиенти</a>
-              <a href="#faq" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">ЧЗВ</a>
+              <a href="#testimonials" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Отзиви</a>
+              <a href="/chat" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">ЧЗВ</a>
               <div className="flex flex-col space-y-4 pt-4 border-t border-gray-100"> {/* Increased spacing */}
                 <Button variant="ghost" className="w-full justify-center text-xl">Вход</Button> {/* Increased font size */}
                 <Button className="w-full justify-center text-xl bg-purple-600 hover:bg-purple-700 px-8 py-4">Започнете</Button> {/* Increased button size */}
@@ -55,3 +55,4 @@ const Navbar = () => {
     </header>;
 };
 export default Navbar;
+

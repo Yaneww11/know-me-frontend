@@ -21,7 +21,7 @@ const Hero = () => {
               Заедно в, <span className="text-purple-600">откритията</span>, заедно  в растежа
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-8">
-              Увлекателни курсове, създадени да разпалят креативността, критичното мислене и страстта към ученето при вашето дете.
+              Подбрани курсове и събития специално за вашето дете, създадени да разпалят креативността, критичното мислене и страстта към ученето при вашето дете.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="btn-primary flex items-center gap-2" size="lg">
@@ -35,7 +35,7 @@ const Hero = () => {
             </div>
             <div className="mt-8 flex items-center">
               <a href="#path" className="flex -space-x-2">
-                {[1, 2, 3].map((item) => (
+                {[1, 2, 3, 4].map((item) => (
                   <div key={item} className="w-8 h-8 rounded-full bg-purple-500 border-2 border-white flex items-center justify-center text-white text-xs">
                     {item}
                   </div>
@@ -50,7 +50,7 @@ const Hero = () => {
           <div className="flex-1 relative">
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl max-w-md mx-auto">
               <img
-                src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&auto=format&q=80"
+                src="/public/home_page_image.png?w=800&auto=format&q=80"
                 alt="Деца учат заедно"
                 className="w-full h-auto object-cover"
               />

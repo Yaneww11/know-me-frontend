@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Clock, Users, Star } from 'lucide-react';
+import { Clock, Users, Star, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 interface CourseCardProps {
@@ -8,8 +7,9 @@ interface CourseCardProps {
   category: string;
   image: string;
   rating: number;
-  students: number;
+  audience: number;
   duration: string;
+  location: string;
   color: 'purple' | 'green' | 'blue' | 'pink';
 }
 
@@ -25,8 +25,9 @@ const CourseCard = ({
   category,
   image,
   rating,
-  students,
+  audience,
   duration,
+  location,
   color = 'purple'
 }: CourseCardProps) => {
   return (
@@ -43,15 +44,19 @@ const CourseCard = ({
       </div>
       <div className="p-6 flex flex-col flex-grow">
         <h3 className="text-lg font-bold mb-2 group-hover:text-purple-600 transition-colors">{title}</h3>
-        <div className="flex items-center mb-4 text-sm text-gray-500">
+        <div className="flex items-center mb-2 text-sm text-gray-500">
           <div className="flex items-center mr-4">
             <Clock size={14} className="mr-1" />
             <span>{duration}</span>
           </div>
           <div className="flex items-center">
             <Users size={14} className="mr-1" />
-            <span>{students} students</span>
+            <span>{audience} ученици</span>
           </div>
+        </div>
+        <div className="flex items-center mb-4 text-sm text-gray-500">
+          <MapPin size={14} className="mr-1" />
+          <span>{location}</span>
         </div>
         <div className="flex items-center mb-4">
           <div className="flex">
@@ -67,7 +72,7 @@ const CourseCard = ({
         </div>
         <div className="mt-auto pt-4">
           <Button className="w-full bg-white hover:bg-purple-50 text-purple-600 border border-purple-200 hover:border-purple-300">
-            Learn More
+            Научете повече
           </Button>
         </div>
       </div>
@@ -76,3 +81,4 @@ const CourseCard = ({
 };
 
 export default CourseCard;
+
