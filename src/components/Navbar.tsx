@@ -18,14 +18,14 @@ const Navbar = () => {
           {/* Desktop menu */}
           <nav className="hidden md:flex items-center space-x-16"> {/* Increased spacing */}
             <a href="#courses" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Курсове</a> {/* Increased font size */}
-            <a href="#path" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Път</a>
+            <a href="#path" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Стъпки</a>
             <a href="#benefits" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Ползи</a>
             <a href="#testimonials" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Отзиви</a>
             <a href="/chat" className="text-xl font-medium text-gray-700 hover:text-purple-600 transition-colors">Чат за Родители</a>
           </nav>
           
           <div className="hidden md:flex items-center space-x-8"> {/* Increased spacing */}
-            <Button variant="ghost" className="text-xl font-medium">Вход</Button> {/* Increased font size */}
+         <Button variant="ghost" className="text-xl font-medium" onClick={() => window.open('https://www.figma.com/proto/JM7m0zKb4Q7vbVNQQGMhNe/Know-me?page-id=0%3A1&node-id=5-6&viewport=438%2C311%2C0.18&t=0jXdbqRmhGquL3r0-1&scaling=scale-down&content-scaling=fixed', '_blank')}>Вход</Button> {/* Increased font size */}{/* Increased font size */}
             <Button className="text-xl bg-purple-600 hover:bg-purple-700 px-8 py-4">Започнете</Button> {/* Increased button size */}
           </div>
           
@@ -41,7 +41,7 @@ const Navbar = () => {
         {isMenuOpen && <div className="md:hidden bg-white py-8 px-4"> {/* Increased padding */}
             <nav className="flex flex-col space-y-8"> {/* Increased spacing */}
               <a href="#courses" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Курсове</a> {/* Increased font size and padding */}
-              <a href="#path" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Път</a>
+              <a href="#path" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Стъпки</a>
               <a href="#benefits" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Ползи</a>
               <a href="#testimonials" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">Отзиви</a>
               <a href="/chat" className="px-6 py-4 text-xl font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-lg transition-colors">ЧЗВ</a>

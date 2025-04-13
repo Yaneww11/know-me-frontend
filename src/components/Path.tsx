@@ -26,8 +26,8 @@ const Path = () => {
             <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mb-6">
               <FileText size={28} className="text-green-600" />
             </div>
-            <h3 className="text-xl font-bold mb-3">2. Попълнете формуляра</h3>
-            <p className="text-gray-600">Благодарения на формуляра ще разберем за интересите и силните страни на вашето дте, за да можем да персонализираме неговото преживяване.</p>
+            <h3 className="text-xl font-bold mb-3">2. Попълнете персоналния тест</h3>
+            <p className="text-gray-600">Чрез него ще разберем за интересите и силните страни на вашето дете, за да можем да го насочим в правилната посока.</p>
           </div>
 
           {/* Step 3 */}
@@ -35,8 +35,8 @@ const Path = () => {
             <div className="w-16 h-16 rounded-full bg-purple-100 flex items-center justify-center mb-6">
               <ListChecks size={28} className="text-purple-600" />
             </div>
-            <h3 className="text-xl font-bold mb-3">3. Открийте предложенията</h3>
-            <p className="text-gray-600">Разгледайте курсове по изкуства, спорт, технологии, наука и много други - съобразени с профила на вашето дете.</p>
+            <h3 className="text-xl font-bold mb-3">3. Разгледайте нашите предложения</h3>
+            <p className="text-gray-600">Вижте най - подходящите активности за вашето дете: изкуства, спорт, технологии, наука и много други.</p>
           </div>
 
           {/* Step 4 */}
@@ -44,7 +44,7 @@ const Path = () => {
             <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mb-6">
               <Star size={28} className="text-green-600" />
             </div>
-            <h3 className="text-xl font-bold mb-3">4. Оценяйте занятията</h3>
+            <h3 className="text-xl font-bold mb-3">4. Споделяйте какво мислите</h3>
             <p className="text-gray-600">Важното е да бъде коректно оценявано всяко изживяване, за да получим възможно най-точна преценка за възможностите и интересите на вашето дете.</p>
           </div>
         </div>

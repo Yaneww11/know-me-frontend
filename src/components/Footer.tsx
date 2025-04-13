@@ -40,7 +40,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Бързи Връзки</h3>
             <ul className="space-y-3">
               <li><a href="#courses" className="text-gray-400 hover:text-white transition-colors">Курсове</a></li>
-              <li><a href="#path" className="text-gray-400 hover:text-white transition-colors">Път</a></li>
+              <li><a href="#path" className="text-gray-400 hover:text-white transition-colors">Стъпки</a></li>
               <li><a href="#benefits" className="text-gray-400 hover:text-white transition-colors">Ползи</a></li>
               <li><a href="#testimonials" className="text-gray-400 hover:text-white transition-colors">Отзиви</a></li>
             </ul>

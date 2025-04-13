@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="flex-1 max-w-xl">
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-purple-100 text-purple-700 text-sm font-medium mb-6">
               <Sparkles size={16} className="mr-2" />
-              <span>За деца на възраст 10-14 години</span>
+              <span>Участвай активно в развитието на детето ти</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Заедно в, <span className="text-purple-600">откритията</span>, заедно  в растежа

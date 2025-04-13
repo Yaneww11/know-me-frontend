@@ -5,46 +5,46 @@ const featuredCourses = [
   {
     id: 1,
     title: 'Въведение в програмирането за деца',
-    category: 'Програмиране',
+    category: 'Интелектуално Развитие',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyhf3ZIrowJkgU4UbPayyfoYEHcWl4xG_iEw&sФ',
     rating: 4.9,
     audience: 1245,
-    duration: '8 седмици',
+    duration: '1 седмица',
     location: 'София, ул. Витоша 18',
-    color: 'purple' as const
+    color: 'blue' as const
   },
   {
     id: 2,
     title: 'Футболен шампионат "Млади шампиони"',
-    category: 'Спорт',
+    category: 'Физическо Развитие',
     image: 'https://images.unsplash.com/photo-1556056504-5c7696c4c28d',
     rating: 4.8,
     audience: 1250,
-    duration: '4 седмици',
+    duration: '18.07.2023',
     location: 'Стадион Васил Левски, София',
     color: 'green' as const
   },
   {
     id: 3,
     title: 'Забавление с математика',
-    category: 'Математика',
+    category: 'Интелектуално Развитие',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNW6UcHHlwBkGpAlvZA2MwbARB5b210NN3IA&s',
     rating: 4.7,
     audience: 1102,
-    duration: '10 седмици',
+    duration: '1 седмица',
     location: 'Онлайн',
     color: 'blue' as const
   },
   {
     id: 4,
     title: 'Научни експерименти у дома',
-    category: 'Наука',
+    category: 'Интелектуално Развитие',
     image: 'https://images.unsplash.com/photo-1470813740244-df37b8c1edcb',
     rating: 4.9,
     audience: 876,
-    duration: '7 седмици',
+    duration: '1 седмица',
     location: 'Онлайн',
-    color: 'pink' as const
+    color: 'blue' as const
   }
 ];
 
@@ -57,7 +57,7 @@ const FeaturedCourses = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Разгледайте нашите препоръчани курсове</h2>
           <p className="text-lg text-gray-600">
             Създадени от експертни преподаватели, за да вдъхновят креативност и да насърчат интелектуалния растеж
-            при деца на възраст 10-14 години.
+            на вашите деца.
           </p>
         </div>
 

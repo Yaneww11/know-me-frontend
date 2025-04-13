@@ -8,12 +8,12 @@ const benefits = [
     description: 'Завладяващо съдържание, което кара децата да задават въпроси и да изследват нови теми с ентусиазъм.'
   },
   {
-    icon: <Brain className="h-6 w-6 text-purple-500" />,
+    icon: <Brain className="h-6 w-6 text-green-500" />,
     title: 'Развива критично мислене',
     description: 'Предизвикателства, които насърчават уменията за решаване на проблеми и аналитично мислене.'
   },
   {
-    icon: <Heart className="h-6 w-6 text-green-500" />,
+    icon: <Heart className="h-6 w-6 text-purple-500" />,
     title: 'Изгражда увереност',
     description: 'Подкрепяща среда, в която децата могат да поемат рискове и да развиват самоувереност.'
   },
@@ -28,9 +28,9 @@ const benefits = [
     description: 'Учете със собствено темпо с уроци при поискване и персонализирана обратна връзка.'
   },
   {
-    icon: <Award className="h-6 w-6 text-green-500" />,
-    title: 'Признати постижения',
-    description: 'Сертификати и значки, които отбелязват напредъка и мотивират за продължаващо обучение.'
+    icon: <Users className="h-6 w-6 text-green-500" />,
+    title: 'Нашата общност',
+    description: 'Създаваме среда от подкрепящи родители и щастливи деца, готови за нови предизвикателства.'
   }
 ];
 
@@ -73,7 +73,7 @@ const Benefits = () => {
             </div>
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07" 
+                src="https://www.rootsofaction.com/wp-content/uploads/2017/03/Resourcefulness.png"
                 alt="Щастливи деца, които учат" 
                 className="w-full h-full object-cover object-center"
               />
